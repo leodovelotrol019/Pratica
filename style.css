@@ -4,23 +4,26 @@
 }
 body{
 font-family: roboto;
-background: gray;
+background: darkgray;
 }
 .card_p{
     background-color: #fff;
     
-    margin-top: 5vh;
-    width: 50%;
+    margin-top: 20vh;
+    width: 44vw;
     margin-left: 25vw;
-    padding: 6px;
-    padding-left: 40px ;
-    line-height: 1.5;
+
+    padding: 20px;
+    line-height: 1.4;
     border-radius: 20px;
-    height: 50vh;
+    height: 55vh;
     font-size: 1.1rem;
+    
 }
 
-
+p{
+    text-align: justify;
+}
 .card_p h1{
 text-align: center;
 color: rgb(1, 1, 192);
@@ -31,19 +34,38 @@ color: rgb(1, 1, 192);
 }
 
 .card_np{
-   background-color:  rgba(197, 197, 197, 0.342);
+   background-color:  rgba(197, 197, 197, 0.13);
    padding-top: 2px;
    padding-bottom: 6px;
    padding-left: 15px;
-   border-radius: 15px;
+   border-radius: 10px;
    margin-right: 20px;
+   border-color:  rgba(197, 197, 197, 0.342);
+   border-style: solid;
    
    
 }
+.card_p ul{
+padding-left: 18px;
+}
+
+.card_np li{
+margin-bottom: 5px;
+}
 .btn{
-    width: 9vw;
-    border-radius: 20px;
-    color: blue;
+    padding: 5px 30px;
+    border-radius: 7px;
+    color: rgb(32, 147, 255);
     border-style: none;
-    height: 3vh;
+    height: 4vh;
+    font-size: 1.1rem;
+    border-color:  rgba(197, 197, 197, 0.342);
+    border-style: solid;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
 }
